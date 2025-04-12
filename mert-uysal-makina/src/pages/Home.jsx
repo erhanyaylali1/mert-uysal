@@ -1,15 +1,14 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Home = () => {
   const bannerImages = [
-    'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1470',
-    'https://images.unsplash.com/photo-1581092160607-ee22731c2f54?auto=format&fit=crop&q=80&w=1470',
-    'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=1470',
+    "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1470",
+    "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=1470",
   ];
 
   return (
@@ -20,6 +19,7 @@ const Home = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
         className="h-[500px]"
+        loop={true}
       >
         {bannerImages.map((image, index) => (
           <SwiperSlide key={index}>
@@ -54,13 +54,16 @@ const Home = () => {
           </div>
           <div>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Mert Uysal Makina, endüstriyel güç aktarma sistemleri alanında uzmanlaşmış bir şirkettir. 
-              Kasnak, cıvata, rulman ve disk gibi mekanik güç aktarma parçaları konusunda geniş ürün 
-              yelpazemiz ve deneyimli ekibimizle müşterilerimize en kaliteli çözümleri sunuyoruz.
+              Mert Uysal Makina, endüstriyel güç aktarma sistemleri alanında
+              uzmanlaşmış bir şirkettir. Kasnak, cıvata, rulman ve disk gibi
+              mekanik güç aktarma parçaları konusunda geniş ürün yelpazemiz ve
+              deneyimli ekibimizle müşterilerimize en kaliteli çözümleri
+              sunuyoruz.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
-              Yüksek kalite standartlarımız, zamanında teslimat politikamız ve müşteri odaklı 
-              yaklaşımımızla sektörde güvenilir bir çözüm ortağı olarak hizmet vermekteyiz.
+              Yüksek kalite standartlarımız, zamanında teslimat politikamız ve
+              müşteri odaklı yaklaşımımızla sektörde güvenilir bir çözüm ortağı
+              olarak hizmet vermekteyiz.
             </p>
           </div>
         </div>

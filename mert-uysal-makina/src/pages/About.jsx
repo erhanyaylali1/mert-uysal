@@ -1,5 +1,5 @@
-import React from 'react';
-import { Building2, Users, Trophy, Target } from 'lucide-react';
+import React from "react";
+import { Building2, Users, Trophy, Target } from "lucide-react";
 
 const About = () => {
   return (
@@ -22,12 +22,14 @@ const About = () => {
         <div>
           <h2 className="text-2xl font-bold mb-4">Şirket Tarihçemiz</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Mert Uysal Makina, 2000 yılında kurulmuş olup, endüstriyel güç aktarma 
-            sistemleri alanında Türkiye'nin önde gelen üreticilerinden biri haline gelmiştir.
+            Mert Uysal Makina, 2000 yılında kurulmuş olup, endüstriyel güç
+            aktarma sistemleri alanında Türkiye'nin önde gelen üreticilerinden
+            biri haline gelmiştir.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Müşterilerimize en kaliteli ürünleri sunma konusundaki kararlılığımız ve 
-            sürekli gelişim ilkemiz, bizi sektörde güvenilir bir çözüm ortağı yapmıştır.
+            Müşterilerimize en kaliteli ürünleri sunma konusundaki
+            kararlılığımız ve sürekli gelişim ilkemiz, bizi sektörde güvenilir
+            bir çözüm ortağı yapmıştır.
           </p>
         </div>
       </div>
@@ -35,13 +37,13 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
         <div className="text-center p-6 bg-white rounded-lg shadow-md">
           <Building2 className="w-12 h-12 mx-auto mb-4 text-blue-600" />
-          <h3 className="text-xl font-semibold mb-2">Modern Tesis</h3>
-          <p className="text-gray-600">5000m² üretim alanı</p>
+          <h3 className="text-xl font-semibold mb-2">Yılların Tecrübesi</h3>
+          <p className="text-gray-600">10 Yıllık Deneyim</p>
         </div>
         <div className="text-center p-6 bg-white rounded-lg shadow-md">
           <Users className="w-12 h-12 mx-auto mb-4 text-blue-600" />
-          <h3 className="text-xl font-semibold mb-2">Uzman Ekip</h3>
-          <p className="text-gray-600">50+ çalışan</p>
+          <h3 className="text-xl font-semibold mb-2">Uzman Destek</h3>
+          <p className="text-gray-600">Tam zamanlı destek</p>
         </div>
         <div className="text-center p-6 bg-white rounded-lg shadow-md">
           <Trophy className="w-12 h-12 mx-auto mb-4 text-blue-600" />
@@ -51,7 +53,7 @@ const About = () => {
         <div className="text-center p-6 bg-white rounded-lg shadow-md">
           <Target className="w-12 h-12 mx-auto mb-4 text-blue-600" />
           <h3 className="text-xl font-semibold mb-2">Müşteri Odaklılık</h3>
-          <p className="text-gray-600">%98 müşteri memnuniyeti</p>
+          <p className="text-gray-600">Yüksek müşteri memnuniyeti</p>
         </div>
       </div>
     </div>
