@@ -16,9 +16,9 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex items-center space-x-8">
-            <Link to="/products" className="text-gray-700 hover:text-blue-600">
+            {/* <Link to="/products" className="text-gray-700 hover:text-blue-600">
               Ürünler
-            </Link>
+            </Link> */}
             <Link to="/about" className="text-gray-700 hover:text-blue-600">
               Hakkımızda
             </Link>

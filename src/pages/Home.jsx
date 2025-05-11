@@ -4,12 +4,14 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import pic from "../images/IMG-20230318-WA0010.jpg";
+import bannerPic1 from "../images/IMG_0978.jpeg";
+import bannerPic2 from "../images/IMG_0979.jpeg";
+import bannerPic3 from "../images/IMG_0980.jpeg";
+import bannerPic4 from "../images/IMG_0981.jpeg";
 
 const Home = () => {
-  const bannerImages = [
-    "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1470",
-    "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=1470",
-  ];
+  const bannerImages = [bannerPic1, bannerPic2, bannerPic3, bannerPic4];
 
   return (
     <div>
@@ -43,14 +45,12 @@ const Home = () => {
       </Swiper>
 
       <section className="py-16 px-4 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Hakkımızda</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">
+          Makina ve daha fazlası
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1581092160607-ee22731c2f54?auto=format&fit=crop&q=80&w=1470"
-              alt="Factory"
-              className="rounded-lg shadow-lg"
-            />
+            <img src={pic} className="rounded-lg shadow-lg" />
           </div>
           <div>
             <p className="text-lg text-gray-700 leading-relaxed">
