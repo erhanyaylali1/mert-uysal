@@ -50,7 +50,7 @@ const Home = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <img src={pic} className="rounded-lg shadow-lg" />
+            <img src={pic} className="rounded-lg shadow-lg" alt="product" />
           </div>
           <div>
             <p className="text-lg text-gray-700 leading-relaxed">
