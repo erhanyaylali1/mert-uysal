@@ -38,6 +38,7 @@ const Footer = () => {
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
+              title="Google Maps"
               className="rounded-lg"
             ></iframe>
           </div>
