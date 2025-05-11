@@ -1,15 +1,17 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const ProductDetail = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
 
   // Temporary mock data until Google Sheets integration
   const product = {
     id: 1,
-    name: 'Alüminyum Kasnak',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22731c2f54?auto=format&fit=crop&q=80&w=800',
-    description: 'Yüksek kaliteli alüminyum malzemeden üretilmiş, hafif ve dayanıklı kasnak.',
+    name: "Alüminyum Kasnak",
+    image:
+      "https://images.unsplash.com/photo-1581092160607-ee22731c2f54?auto=format&fit=crop&q=80&w=800",
+    description:
+      "Yüksek kaliteli alüminyum malzemeden üretilmiş, hafif ve dayanıklı kasnak.",
   };
 
   return (
