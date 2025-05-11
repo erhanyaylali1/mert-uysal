@@ -9,6 +9,7 @@ import bannerPic1 from "../images/IMG_0978.jpeg";
 import bannerPic2 from "../images/IMG_0979.jpeg";
 import bannerPic3 from "../images/IMG_0980.jpeg";
 import bannerPic4 from "../images/IMG_0981.jpeg";
+import "../App.css";
 
 const Home = () => {
   const bannerImages = [bannerPic1, bannerPic2, bannerPic3, bannerPic4];
@@ -20,7 +21,7 @@ const Home = () => {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
-        className="h-[500px]"
+        className="h-[40vh] md:h-[50vh]"
         loop={true}
       >
         {bannerImages.map((image, index) => (
@@ -31,12 +32,10 @@ const Home = () => {
             >
               <div className="w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
                 <div className="text-center text-white">
-                  <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                  <h1 className="text-3xl md:text-6xl font-bold mb-4">
                     Mert Uysal Makina
                   </h1>
-                  <p className="text-xl md:text-2xl">
-                    Güç Aktarma Sistemlerinde Güvenilir Çözüm Ortağınız
-                  </p>
+                  <p className="text-xl md:text-2xl">Güç Aktarma Sistemleri</p>
                 </div>
               </div>
             </div>
